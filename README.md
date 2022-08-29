@@ -50,3 +50,7 @@ We provide the dataset as a set of bag files, each representing one trajectory, 
 The bag files can be downloaded [here](https://drive.google.com/file/d/1b1PFSBlKTdrlTIurYNpTJWWEx1KIJzuR/view?usp=sharing), while the pdf files can downloaded [here](https://drive.google.com/file/d/1s7nSqATpCS849csSdkHNL0-VLZwdNzg4/view?usp=sharing).
 
 #### Processing Data
+We provide a python script for processing the bag files.
+The script loads each bag file, splines and syncronizes selected topics (odometry from Vicon, angular velocity from IMU and rotor speeds from ESC), and saves the dataset as .csv files (one for training, multiple for testing).
+The python script offers the possibility to filter the parsed data to minimize the effect of sensor noise.
+We provide the code for running low-pass Butterworth and Savitzky–Golay filters.
