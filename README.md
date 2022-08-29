@@ -54,3 +54,8 @@ We provide a python script for processing the bag files.
 The script loads each bag file, splines and syncronizes selected topics (odometry from Vicon, angular velocity from IMU and rotor speeds from ESC), and saves the dataset as .csv files (one for training, multiple for testing).
 The python script offers the possibility to filter the parsed data to minimize the effect of sensor noise.
 We provide the code for running low-pass Butterworth and Savitzky–Golay filters.
+
+Process the data by running the python script:
+```
+python process_data.py
+```
