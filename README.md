@@ -55,8 +55,9 @@ The script loads each bag file, splines and syncronizes selected topics (odometr
 The python script offers the possibility to filter the parsed data to minimize the effect of sensor noise.
 We provide the code for running low-pass Butterworth and Savitzky–Golay filters.
 
-Process the data by:
-- Running the python script:
+Process the data by running the python script:
 ```
 python process_data.py
 ```
+
+Note: the downloaded bag files should be stored in the same folder as the python script.
