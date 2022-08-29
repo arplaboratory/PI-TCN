@@ -32,8 +32,15 @@ If you publish a paper with our data, please cite our paper:
     doi       = {10.1109/LRA.2022.3192609}
 }
 ```
- 
-## Overview
 
-#### Abstract
+## Abstract
 Accurately modeling quadrotor's system dynamics is critical for guaranteeing agile, safe, and stable navigation. The model needs to capture the system behavior in multiple flight regimes and operating conditions, including those producing highly nonlinear effects such as aerodynamic forces and torques, rotor interactions, or possible system configuration modifications. Classical approaches rely on handcrafted models and struggle to generalize and scale to capture these effects. In this paper, we present a novel Physics-Inspired Temporal Convolutional Network (PI-TCN) approach to learning quadrotor's system dynamics purely from robot experience. Our approach combines the expressive power of sparse temporal convolutions and dense feed-forward connections to make accurate system predictions. In addition, physics constraints are embedded in the training process to facilitate the network's generalization capabilities to data outside the training distribution. Finally, we design a model predictive control approach that incorporates the learned dynamics for accurate closed-loop trajectory tracking fully exploiting the learned model predictions in a receding horizon fashion. Experimental results demonstrate that our approach accurately extracts the structure of the quadrotor's dynamics from data, capturing effects that would remain hidden to classical approaches. To the best of our knowledge, this is the first time physics-inspired deep learning is successfully applied to temporal convolutional networks and to the system identification task, while concurrently enabling predictive control.
+
+## Collected Data
+We release our collected dataset which we used for training and evaluating the Physics-Inspired Temporal Convolutional Network.
+
+The data was collected by controlling the quadrotor in a series of flights in an indoor environment 10x6x4 at the Agile Robotics and Perception Lab (ARPL) at the New York University.
+The environment is equipped with a Vicon motion capture system that allows recording accurate position and attitude measurements at 100Hz. Additionally, we record the onboard motor speeds.
+
+The dataset consists of 68 trajectories with a total of 58'03'' flight time.
+The trajectories range from straight-line accelerations to circular motions, but also parabolic maneuvers and lemniscate trajectories. All the trajectories are performed for any axis combination (i.e., x-y, x-z, y-z) and with different speeds and accelerations.
