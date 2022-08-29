@@ -60,4 +60,4 @@ Process the data by running the python script:
 python process_data.py
 ```
 
-Note: the downloaded bag files should be stored in the same folder as the python script.
+Note: the downloaded bag files' folder should be stored in the same folder as the python script.
