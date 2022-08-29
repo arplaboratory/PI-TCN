@@ -19,7 +19,7 @@ Please be aware that this code was originally implemented for research purposes 
 ```
 
 ## Citation
-If you publish a paper with our simulator, please cite our paper: 
+If you publish a paper with our data, please cite our paper: 
 ```
 @article{saviolo2022pitcn,
     author    = {Saviolo, Alessandro and Li, Guanrui and Loianno, Giuseppe},
