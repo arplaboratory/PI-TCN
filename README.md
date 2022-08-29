@@ -24,10 +24,14 @@ If you publish a paper with our data, please cite our paper:
 @article{saviolo2022pitcn,
     author    = {Saviolo, Alessandro and Li, Guanrui and Loianno, Giuseppe},
     title     = {Physics-Inspired Temporal Learning of Quadrotor Dynamics for Accurate Model Predictive Trajectory Tracking},
-    journal   = {arXiv preprint arXiv:2206.03305},
-    year      = {2022}
+    journal   = {IEEE Robotics and Automation Letters},
+    year      = {2022},
+    volume    = {7},
+    number    = {4},
+    pages     = {10256-10263},
+    doi       = {10.1109/LRA.2022.3192609}
 }
- ```
+```
  
 ## Overview
 
