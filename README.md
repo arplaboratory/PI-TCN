@@ -44,3 +44,9 @@ The environment is equipped with a Vicon motion capture system that allows recor
 
 The dataset consists of 68 trajectories with a total of 58'03'' flight time.
 The trajectories range from straight-line accelerations to circular motions, but also parabolic maneuvers and lemniscate trajectories. All the trajectories are performed for any axis combination (i.e., x-y, x-z, y-z) and with different speeds and accelerations.
+
+We provide the data as a set of bag files, each representing one trajectory.
+Moreover, we provide a set of pdf illustrations of each bag file.
+
+[Bags](https://drive.google.com/file/d/1b1PFSBlKTdrlTIurYNpTJWWEx1KIJzuR/view?usp=sharing)
+[PDFs](https://drive.google.com/file/d/1s7nSqATpCS849csSdkHNL0-VLZwdNzg4/view?usp=sharing)
