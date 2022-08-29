@@ -39,7 +39,7 @@ Accurately modeling quadrotor's system dynamics is critical for guaranteeing agi
 ## Collected Data
 We release our collected dataset which we used for training and evaluating the Physics-Inspired Temporal Convolutional Network.
 
-The data was collected by controlling the quadrotor in a series of flights in an indoor environment 10x6x4 at the Agile Robotics and Perception Lab (ARPL) at the New York University.
+The data was collected by controlling the quadrotor in a series of flights in an indoor environment 10x6x4 [m] at the Agile Robotics and Perception Lab (ARPL) at the New York University.
 The environment is equipped with a Vicon motion capture system that allows recording accurate position and attitude measurements at 100Hz. Additionally, we record the onboard motor speeds.
 
 The dataset consists of 68 trajectories with a total of 58'03'' flight time.
